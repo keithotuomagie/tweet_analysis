@@ -44,7 +44,7 @@ I utilized the following code - *df['emotion_in_tweet_is_directed_at'].value_cou
 
 A bar chart that breaks down the different brands and products is listed below.
 
-![Breakdown of Brand and Product](image_1.png)
+![Breakdown of Brand and Product](images/image_1.png)
 
 ## Observations | Brand or Product Sentiment
 
