@@ -18,6 +18,55 @@ Before beginning to create a model, I want to examine and become familiar with t
 3. Column Names
 4. Format of the data in each column
 
+## Data Overview
+
+I created a Pandas DataFrame from the csv file.  The DataFrame contains 8,721 rows of data.  The DataFrame contains the following columns:
+
+- *df['tweet_text']* - this is the sentiment provided via tweet
+- *df['emotion_in_tweet_is_directed_at']* - this is the brand, or product, in which the tweet is targeted
+- *df['is_there_an_emotion_directed_at_a_brand_or_product']* - this is the emotional category of the tweet
+
+All of the columns are in string format.
+
+## Observations | Brand or Product
+
+I utilized the following code - *df['emotion_in_tweet_is_directed_at'].value_counts()* - to understand the different brands and products that are captured by the respective column.  The different brands and products are the following: 
+
+- *iPad*
+- *Apple*
+- *iPad or iPhone App*
+- *Google*
+- *iPhone*
+- *Other Google product or service*
+- *Android App*
+- *Android*
+- *Other Apple product or service*
+
+A bar chart that breaks down the different brands and products is listed below.
+
+![Breakdown of Brand and Product](image_1.png)
+
+## Observations | Brand or Product Sentiment
+
+I utilized the following code - *df['is_there_an_emotion_directed_at_a_brand_or_product'].value_counts()* - to understand the brand and product sentiment captured by the respective column.  There are a total of four different brand and product sentiments, which are the following:
+
+- *No emotion toward brand or product*
+- *Positive emotion*
+- *Negative emotion*
+- *I can't tell* 
+
+## Observations | Missing Values
+
+I utilized the following code - *df.isna().sum()* - to understand how many missing values are within each column.  There is a total of 5,552 missing values in the *df['emotion_in_tweet_is_directed_at']* column.
+
+There is 1 missing value in the *df['tweet_text']* column.
+
+The other column *df['is_there_an_emotion_directed_at_a_brand_or_product']* did not have any missing values.
+
+## Observations | Duplicate Rows
+
+I utilized the following code - *df.duplicated().sum()* - to understand how many duplicates are present in the dataset.  There is a total of 22 duplicate rows.
+
 # Data Preparation
 
 # Modeling
