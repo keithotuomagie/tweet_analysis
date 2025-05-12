@@ -9,6 +9,15 @@ The company's C-suite executives request their in-house data scientists to devel
 
 # Data Understanding
 
+The data for examing the aforementioned problem comes from the following source: [Brands and Product Emotions](https://data.world/crowdflower/brands-and-product-emotions) 
+
+Before beginning to create a model, I want to examine and become familiar with the dataset. I will conduct exploratory data analysis in order to understand the dataset attributes, which includes, but not limited to the following:
+
+1. Number of Columns
+2. Number of Rows
+3. Column Names
+4. Format of the data in each column
+
 # Data Preparation
 
 # Modeling
