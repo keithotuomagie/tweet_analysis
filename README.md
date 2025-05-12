@@ -76,6 +76,31 @@ The Data Understanding stage is complete.  Based on the exploratory data analysi
 3. Drop the column *df['emotion_in_tweet_is_directed_at'] from the Dataframe
 4. Classify the brand or product sentiment into the two following categories - 1) Not Positive, or 2) Positive - via *df['is_there_an_emotion_directed_at_a_brand_or_product']* column 
 
+## Remove Duplicate Rows
+
+I utilied the following code - *df.drop_duplicates(inplace=True)* - to remove the duplicates from the DataFrame.  The number of rows is now 8,699.
+
+## Remove Observation with Missing Tweet
+
+I utilied the following code - *df.dropna(subset=['tweet_text'], axis=0, inplace=True)* - to remove the observation with the missing tweet from the DataFrame.  The aforementioned observation has been removed.  The number of rows is now 8,698.
+
+## Remove the brand and product column
+
+I utilied the following code - *df.drop('emotion_in_tweet_is_directed_at', axis=1, inplace=True)* - to remove the brand and product column.  The aforementioned column has been removed.
+
+## Classify the brand or product sentiment
+
+I have reclassified all of the brand and product sentiment into the two following categories - 1) Not Positive, or 2) Positive by performing the following:
+
+- Removing the brand and product sentiment observations that was listed as "I can't tell" (this was 151 rows)
+- Reclassifying the brand and product sentiment observations from "Positive emotion" into "Positive" (this was 2,861 rows)
+- Reclassifying the brand and product sentiment observations from "No emotion toward brand or product" into "Not Positive" (this was 5,142 rows)
+- Reclassifying the brand product sentiment observations from "Negative emotion" into "Not Positive" (this was 544 rows)
+
+A bar chart that provides a breakdown of the new brand and product sentiment is listed below.
+
+![Breakdown of Brand and Product Sentiment](images/image_2.png)
+
 # Modeling
 
 # Overall Conclusion and Recommendations
