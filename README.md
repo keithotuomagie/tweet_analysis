@@ -387,7 +387,7 @@ Precision scores for all of the models are the following:
 
 The Baseline Naive Bayes Model performed the best in comparison to the Baseline Decision Tree Model and the Tuned Decision Tree Model.  The Baseline Naive Bayes Model has the same precision score as the Tuned Naive Bayes Model.  However, I chose the Baseline Naive Bayes Model over the Tuned Naive Bayes Model because it was constructed without updating any parameters.
 
-There are limitations to the the Baseline Naive Bayes Model.  It was constructed based on 8,698 customers.  Additional data needs to be collected in order to train and test the aforementioned model.
+There are limitations to the the Baseline Naive Bayes Model.  It was constructed based on 8,547 tweets.  Additional data needs to be collected in order to train and test the aforementioned model.
 
 ## Next Steps
 
