@@ -375,3 +375,34 @@ The most peculiar observation is that the majority of the training and test eval
 - Paramter Grid: The overall grid may not be optimal for the given dataset.
 
 # Overall Conclusion and Recommendations
+
+## Overall Conclusion and Recommendations
+
+Precision scores for all of the models are the following:
+
+- Baseline Naive Bayes Model (70.8%)
+- Tuned Naive Bayes Model (70.8%)
+- Baseline Decision Tree Model (54.2%)
+- Tuned Decision Tree Model (0.0%)
+
+The Baseline Naive Bayes Model performed the best in comparison to the Baseline Decision Tree Model and the Tuned Decision Tree Model.  The Baseline Naive Bayes Model has the same precision score as the Tuned Naive Bayes Model.  However, I chose the Baseline Naive Bayes Model over the Tuned Naive Bayes Model because it was constructed without updating any parameters.
+
+There are limitations to the the Baseline Naive Bayes Model.  It was constructed based on 8,698 customers.  Additional data needs to be collected in order to train and test the aforementioned model.
+
+## Next Steps
+
+The next step is to refine the NLP model via additional data.
+
+The following are potential data sources:
+    
+**1. Public Online Communities**
+
+X, or formerly Twitter, is not the only public online community.  There are other public online communities - for example, Instagram and Reddit - in which brand or product feedback can be gathered for sentiment analysis.
+
+**2. Other Smartphone Companies**
+
+Apple and Google command the most brand equity in regards to smartphones and related products.  However, they are not the only companies with this offering.  Motorola and Nokia offer smartphones in the marketplace.
+
+**3. Private Online Communities**
+
+The general populace is familiar with public online communities such as X, Instagram, and Reddit.  However, there are also private communities in which companies offer individuals access to membershp forums.  And the same companies monitor feedback in regards to the respective company and/or product.
