@@ -406,3 +406,9 @@ Apple and Google command the most brand equity in regards to smartphones and rel
 **3. Private Online Communities**
 
 The general populace is familiar with public online communities such as X, Instagram, and Reddit.  However, there are also private communities in which companies offer individuals access to membershp forums.  And the same companies monitor feedback in regards to the respective company and/or product.
+
+# References
+
+1. ![Jupyter notebook](notebook.ipynb)
+2. ![images](images)
+3. ![presentation](presentation.pdf)
