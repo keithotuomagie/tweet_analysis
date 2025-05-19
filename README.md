@@ -146,7 +146,7 @@ The stemmed tokens are the expected output.  I will proceed with performing a tr
 Natural language pre-processing of the tweets is complete.  I will transition towards performing the following:
 
 - Vectorizing the data via Term Frequency-Inverse Document Frequency, or TF-IDF
-- Creaing a Baseline Naive Bayes model
+- Creating a Baseline Naive Bayes model
 
 ### Baseline Naive Bayes Model
 
