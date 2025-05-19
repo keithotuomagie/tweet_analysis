@@ -1,6 +1,6 @@
 # Business Understanding
 
-KBO Marketing Company LLC is a marketing firm.  The firm wants to develop a model that can predict sentiment for technology products such as smartphones.
+KBO Marketing Company LLC is a marketing firm.  The firm wants to develop a Natural Language Processing (NLP) model that can predict sentiment for technology products such as smartphones.
 
 The company's C-suite executives request their in-house data scientists to develop a prototype.  For the prototype, the in-house data scientists will perform the following:
 
