@@ -73,7 +73,7 @@ The Data Understanding stage is complete.  Based on the exploratory data analysi
 
 1. Remove duplicate rows
 2. Remove observation that has a missing value in the *df['tweet_text']* column
-3. Drop the column *df['emotion_in_tweet_is_directed_at'] from the Dataframe
+3. Drop the column *df['emotion_in_tweet_is_directed_at']* from the Dataframe
 4. Classify the brand or product sentiment into the two following categories - 1) Not Positive, or 2) Positive - via *df['is_there_an_emotion_directed_at_a_brand_or_product']* column 
 
 ## Remove Duplicate Rows
